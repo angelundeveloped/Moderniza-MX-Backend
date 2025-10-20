@@ -1,7 +1,9 @@
 [project]
 name = "moderniza-mx-backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Moderniza MX Backend"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.119.1",
+]
